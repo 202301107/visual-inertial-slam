@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Data (too large for git — keep a sample or link instead)
+data/
+*.mp4
+*.mov
+*.avi
+
+# Calibration / output artifacts
+*.npz
+outputs/
+*.log
+
+# Editor / OS
+.vscode/
+.DS_Store
