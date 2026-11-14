@@ -42,3 +42,8 @@ recording can be replayed while the algorithm improves.
 ## Repository layout
 See `src/` for pipeline stages, `config/` for calibration and marker setup sheet,
 `docs/` for the proposal and system diagram.
+
+## Interface
+`streamlit run src/interface/app.py` — pick a run under `data/all runs`, see sensor status, run detection + SLAM
+(cached detections/M4 trajectory are reused), inspect detected markers and an overlay preview, view the corrected
+trajectory over the marker map (with the M4 no-marker path and uncertainty ellipses), and browse the saved M6 results.
